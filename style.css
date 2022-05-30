@@ -1,0 +1,135 @@
+body
+{
+	font-family: "Trebuchet MS","Verdana","Tahoma", "Arial";
+	font-size: 16px;
+	color: black;
+}
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+nav ul 
+{
+	list-style-type: none;
+	display: flex;
+}
+nav li 
+{
+	padding-top: 2px;
+	margin-right: 20px;
+}
+#logo
+{
+size: 20px;
+}
+p
+{
+	font-size: 15px;
+	color: black;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+a:hover
+{
+	text-decoration: overline;
+	color: blue;
+}
+#filtre
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+i 
+{
+	border-radius: 15px 15px 15px 15px;
+	border: 2px solid rgb(212, 207, 204);
+	text-align: justify;
+	width: auto;
+	max-width: 220px;
+	height: 16px;
+	padding: 17px;
+	margin: 30px;
+	list-style-type: none;
+	display: flex;
+}
+h1
+{
+	font-size: ;
+}
+input
+{
+	background-color: rgb(0, 101, 252);
+	color: white;
+}
+.attention
+{
+
+}
+img
+{
+	size: 2px;
+}
+.hebergements
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	position: left;
+}
+.populaire
+{
+
+}
+.activités
+{
+	background-color: white;
+}
+.propos
+{
+	display: flex;
+	flex-direction: column;
+}
+.hotel
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.assistance
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+table
+{
+	table width=60%
+}
+section
+{
+	margin-left: 300px;
+	border-radius: 15px;
+	display: inline-block;
+	background-color: rgb(242, 242, 242);
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: left;
+	padding: 30px;
+}
+footer
+{
+	background-color: rgb(242, 242, 242);
+}
+#footer
+{	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
